@@ -32,12 +32,14 @@ ADMIN_IDS = {int(x) for x in os.getenv("ADMIN_IDS", "").split(",") if x.strip()}
 
 WELCOME_TEXT = (
     "👋 Welcome {name}!\n\n"
-    "Aapki join request mil gayi hai ✅\n"
+    "Nicha Diya gaye Hack Ko dowload kar Lo ✅\n"
     "Jaldi approve hogi. Tab tak neeche button dekho 👇"
 )
-WELCOME_IMAGE = ""  # image URL ya local path (e.g. "welcome.jpg"). Khali = sirf text
-BUTTON_TEXT = "🔗 Open Link"
-BUTTON_URL = "https://t.me/your_channel"
+WELCOME_IMAGE = "https://t.me/c/2122174869/30385"
+BUTTON_TEXT = "JOIN FOR HACK"
+BUTTON_TEXT = "REGISTER LINK"
+BUTTON_URL = "https://t.me/SURESHOT_Dmfirst_Veer_Bdg_game"
+BUTTON_URL = "https://www.raxi11.com/#/register?invitationCode=32732130391"
 # ----------------------------------------
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
